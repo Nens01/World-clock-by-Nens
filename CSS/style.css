@@ -1,4 +1,7 @@
-.conatainer {
+body {
+  background-color: #f9f7fe;
+}
+.container {
   width: 600px;
   margin: 0 auto;
   background: white;
