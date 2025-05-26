@@ -1,6 +1,14 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #df527f;
   font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
 }
 .container {
   max-width: 600px;
@@ -9,6 +17,13 @@ body {
   padding: 60px;
   box-shadow: 10px 5px 5px rgb(218, 182, 182);
   border-radius: 10px;
+}
+select {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px;
 }
 .city {
   display: flex;
@@ -35,24 +50,9 @@ body {
   vertical-align: middle;
   line-height: 36px;
 }
-select {
-  display: block;
-  width: 100%;
-  font-size: 18px;
-  border-radius: 4px;
-  padding: 10px;
-}
-h1 {
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-h2 {
-  margin: 0 0 5px;
-  font-size: 28px;
-}
 
 footer {
   text-align: center;
   margin-top: 50px;
-  font-size: 14px;
+  font-size: 18px;
 }
