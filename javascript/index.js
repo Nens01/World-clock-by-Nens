@@ -1,6 +1,6 @@
 //Los Angeles
 let losAngelesElement = document.querySelector("#los-angeles");
-let losAngelesDateElement = losAngeles.querySelector(".date");
-let losAngelesTimeElement = losAngeles.querySelector(".time");
-losAngelesDateElement.innerHTML = moment().format("MMMM Do YYYY");
-losAngelesTimeElement.innerHTML = moment().format("hh:mm:ss A");
+let losAngelesDateElement = losAngelesElement.querySelector(".date");
+let losAngelesTimeElement = losAngelesElement.querySelector(".time");
+losAngelesDateElement.innerHTML = moment().format("dddd", "MMMM", "Do", "YYYY");
+losAngelesTimeElement.innerHTML = moment().format("HH:mm:ss A");
