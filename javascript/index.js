@@ -3,10 +3,10 @@ let losAngelesElement = document.querySelector("#los-angeles");
 let losAngelesDateElement = losAngelesElement.querySelector(".date");
 let losAngelesTimeElement = losAngelesElement.querySelector(".time");
 losAngelesDateElement.innerHTML = moment()
-  .tz("America/losAngeles")
-  .format("dddd", "MMMM", "Do", "YYYY");
+  .tz("America/Los_Angeles")
+  .format("dddd, MMMM Do YYYY");
 losAngelesTimeElement.innerHTML = moment()
-  .tz("America/losAngeles")
+  .tz("America/Los_Angeles")
   .format("HH:mm:ss A");
 //New York
 let newYorkElement = document.querySelector("#new-york");
