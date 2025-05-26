@@ -46,8 +46,7 @@ select {
   font-weight: bold;
 }
 .time small {
-  font-size: 30px;
-  vertical-align: middle;
+  font-size: 20px;
   line-height: 36px;
 }
 
