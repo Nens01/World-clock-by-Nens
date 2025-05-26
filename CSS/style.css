@@ -19,17 +19,8 @@ body {
 }
 .city:last-child {
   border-bottom: none;
-  display: flex;
 }
-.city:last-child.time {
-  font-size: 36px;
-  font-weight: bold;
-}
-.city:last-child.date {
-  opacity: 0.7;
-  font-size: 20px;
-  margin-top: 10px;
-}
+
 .date {
   opacity: 0.7;
   font-size: 20px;
