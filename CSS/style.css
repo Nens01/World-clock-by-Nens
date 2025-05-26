@@ -19,6 +19,7 @@ body {
 }
 .city:last-child {
   border-bottom: none;
+  display: flex;
 }
 .city:last-child.time {
   font-size: 36px;
