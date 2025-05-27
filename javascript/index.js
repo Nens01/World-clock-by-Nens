@@ -3,22 +3,19 @@ function updateClock() {
   let losAngelesElement = document.querySelector("#los-angeles");
   let losAngelesDateElement = losAngelesElement.querySelector(".date");
   let losAngelesTimeElement = losAngelesElement.querySelector(".time");
-  losAngelesDateElement.innerHTML = moment()
-    .tz("America/Los_Angeles")
-    .format("dddd, MMMM Do YYYY");
-  losAngelesTimeElement.innerHTML = moment()
-    .tz("America/Los_Angeles")
-    .format("HH:mm:ss A");
+  let losAngelesTime = moment().tz("America/Los_Angeles");
+  losAngelesDateElement.innerHTML = losAngelesTime.format("dddd, MMMM Do YYYY");
+  losAngelesTimeElement.innerHTML = losAngelesTime.format(
+    "HH:mm:ss [<small>]A[</small>]"
+  );
   //New York
   let newYorkElement = document.querySelector("#new-york");
   let newYorkDateElement = newYorkElement.querySelector(".date");
   let newYorkTimeElement = newYorkElement.querySelector(".time");
-  newYorkDateElement.innerHTML = moment()
-    .tz("America/New_York")
-    .format("dddd, MMMM Do YYYY");
-  newYorkTimeElement.innerHTML = moment()
-    .tz("America/New_York")
-    .format("HH:mm:ss A");
+  newYorkDateElement.innerHTML = newYorkTime.format("dddd, MMMM Do YYYY");
+  newYorkTimeElement.innerHTML = newYorkTime.format(
+    "HH:mm:ss [<small>]A[</small>]"
+  );
 }
 function updateCity(event) {
   event.target.value;
