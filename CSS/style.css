@@ -5,12 +5,12 @@ body {
 
 h1 {
   font-size: 48px;
-  color: #fb7601; /* bright neon orange */
+  color: #fb0171;
   font-family: fantasy, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
     sans-serif;
   text-align: center;
   margin: 20px 0;
-  text-shadow: 0 0 5px #fb7601, 0 0 10px #fb7601, 0 0 20px #fb7601,
+  text-shadow: 0 0 5px #f286b8, 0 0 10px #fc307e, 0 0 20px #fb7601,
     0 0 40px #ffae42, 0 0 80px #ffd699;
 }
 
