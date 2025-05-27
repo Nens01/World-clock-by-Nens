@@ -4,8 +4,14 @@ body {
 }
 
 h1 {
+  font-size: 48px;
+  color: #fb7601; /* bright neon orange */
+  font-family: fantasy, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
   text-align: center;
-  font-family: fantasy;
+  margin: 20px 0;
+  text-shadow: 0 0 5px #fb7601, 0 0 10px #fb7601, 0 0 20px #fb7601,
+    0 0 40px #ffae42, 0 0 80px #ffd699;
 }
 
 h2 {
