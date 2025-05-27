@@ -13,15 +13,15 @@ function updateClock() {
     );
   }
 
-  // New York
-  let newYorkElement = document.querySelector("#new-york");
-  if (newYorkElement) {
-    let newYorkDateElement = newYorkElement.querySelector(".date");
-    let newYorkTimeElement = newYorkElement.querySelector(".time");
-    let newYorkTime = moment().tz("America/New_York");
+  // Sydney
+  let sydneyElement = document.querySelector("#sydney");
+  if (sydneyElement) {
+    let sydneyDateElement = sydneyElement.querySelector(".date");
+    let sydneyTimeElement = sydneyElement.querySelector(".time");
+    let sydneyTime = moment().tz("Australia/Sydney");
 
-    newYorkDateElement.innerHTML = newYorkTime.format("dddd, MMMM Do YYYY");
-    newYorkTimeElement.innerHTML = newYorkTime.format(
+    sydneyDateElement.innerHTML = sydneyTime.format("dddd, MMMM Do YYYY");
+    sydneyTimeElement.innerHTML = sydneyTime.format(
       "hh:mm:ss [<small>]A[</small>]"
     );
   }
