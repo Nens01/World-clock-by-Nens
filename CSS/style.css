@@ -33,8 +33,9 @@ h2 {
 select {
   display: block;
   width: 100%;
-  color: aquamarine;
+  color: rgb(10, 11, 11);
   font-size: 18px;
+  background-color: burlywood;
   border-radius: 4px;
   padding: 10px;
 }
