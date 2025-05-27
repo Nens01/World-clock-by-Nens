@@ -1,14 +1,16 @@
 body {
-  background-color: #df527f;
+  background-color: #f4e3ce;
   font-family: sans-serif;
 }
 h1 {
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: fantasy;
 }
 h2 {
   margin: 0 0 5px;
   font-size: 28px;
+  color: #333;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .container {
   max-width: 600px;
@@ -26,34 +28,41 @@ select {
   padding: 10px;
 }
 .city {
-  display: flex;
-  margin: 20px 0;
-  justify-content: space-between;
-  border-bottom: 1px dashed grey;
-  font-size: 40px;
+  margin-bottom: 24px;
+  padding: 10px 10px 10px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 .city:last-child {
   border-bottom: none;
 }
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .date {
-  opacity: 0.7;
-  font-size: 20px;
-  margin-top: 10px;
+  margin-top: 4px;
+  font-size: 0.9rem;
+  color: gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
 .time {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .time small {
   font-size: 20px;
-  line-height: 20px;
-  font-weight: normal;
   vertical-align: middle;
+  line-height: 48px;
+  font-weight: normal;
 }
 
 footer {
   text-align: center;
   margin-top: 50px;
   font-size: 18px;
+  color: #250303;
 }

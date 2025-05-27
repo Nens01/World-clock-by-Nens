@@ -11,31 +11,40 @@
   </head>
   <body>
     <div class="container">
-      <h1>World Clock</h1>
-      <select>
+      <h1>World Clock ⏰</h1>
+      <select id="city">
         <option value="">Select a city..</option>
         <option value="">London</option>
         <option value="">New York</option>
         <option value="">Auckland</option>
       </select>
 
-      <div class="city" id="los-angeles">
-        <h2>Los Angeles 🇺🇸</h2>
-        <div class="date">May 26th 2025</div>
-        <div class="time">12:00:15 <small>PM</small></div>
-      </div>
-      <div class="city" id="new-york">
-        <h2>New York 🇺🇸</h2>
-        <div class="date">May 26th 2025</div>
-        <div class="time">12:00:15 <small>PM</small></div>
+      <div id="cities">
+        <div class="city" id="los-angeles">
+          <div class="top-row">
+            <h2>Los Angeles 🇺🇸</h2>
+            <div class="time">12:00:15 <small>PM</small></div>
+          </div>
+          <div class="date">May 26th 2025</div>
+        </div>
+
+        <div class="city" id="new-york">
+          <div class="top-row">
+            <h2>New York 🇺🇸</h2>
+            <div class="time">15:00:15 <small>PM</small></div>
+          </div>
+          <div class="date">May 26th 2025</div>
+        </div>
       </div>
     </div>
+
     <footer>
-      This project was coded with ❤️ by <strong>Neneemma Oguchi </strong>and is
+      This project was coded with ❤️ by <strong>Neneemma Oguchi</strong> and is
       <a href="https://github.com/Nens01/World-clock-by-Nens" target="_blank">
         open sourced on GitHub</a
       >
     </footer>
+
     <script src="javascript/index.js"></script>
   </body>
 </html>
